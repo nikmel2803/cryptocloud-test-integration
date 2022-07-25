@@ -29,7 +29,7 @@ export default function Home() {
                     <label htmlFor="amount">Amount (USD)</label><br/>
                     <input type="number" min={2} max={20} id="amount" value={amount} onChange={(e) => setAmount(+e.target.value)}/><br/>
                     <label htmlFor="email">email</label><br/>
-                    <input type="text" id="email" value={email} onChange={(e) => setEmail(e.target.value)}/><br/><br/>
+                    <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}/><br/><br/>
                     <input type="submit" value="Submit"/>
                 </form>
             </main>
